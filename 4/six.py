@@ -1,2 +1,4 @@
-result = [[i+j*4+1 for j in range(4)] for i in range(1)]
+rows = 4
+cols = 3
+result = [[col + rows*row for col in range(1, cols+1)] for row in range(rows)]
 print(result)
