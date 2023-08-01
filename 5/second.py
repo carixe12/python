@@ -1,0 +1,5 @@
+string = input("Enter a string: ")
+words = string.split()
+longest_word = max(words, key=len)
+print("\nLongest word: \"{}\"".format(longest_word))
+print("The length of this word is {} characters.".format(len(longest_word)))
